@@ -73,7 +73,7 @@ npm i
 ```bash
 npm run dev
 ```
-10. Go to backend
+10. Go to frontend
 ```bash
 cd ../frontend
 ```

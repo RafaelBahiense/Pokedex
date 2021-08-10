@@ -48,3 +48,43 @@ ___
 
 
 ## How to run
+
+1. Clone this repository
+2. Initialize the submodules
+```bash
+git submodule init
+```
+3. Pull the submodules
+```bash
+git submodule update
+```
+4. Go to backend
+```bash
+cd backend
+```
+5. Install dependencies
+```bash
+npm i
+```
+6. Create a PostgresSQL database "your_database_dev" and "your_database_test"
+7. rename `example.local.dev.env` -> `local.dev.env` and `example.local.test.env` -> `local.test.env`
+8. Config .env files as indicated
+9. Run the Backend with
+```bash
+npm run dev
+```
+10. Go to backend
+```bash
+cd ../frontend
+```
+11. Install dependencies
+```bash
+npm i
+```
+12. rename `example.env` -> `.env`
+13. Config .env files as indicated
+14. Run the Front with
+```bash
+npm start
+```
+15. Finally access http://localhost:3000 on your favorite browser

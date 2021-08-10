@@ -3,7 +3,7 @@
 ### A simple and lightweight pokédex, React and Typescript
 
 <p align="center">
-  <img src="project.gif">
+  <img src="assets/project.gif">
 </p>
 
 <p align="center">
